@@ -31,7 +31,7 @@ int print_palinromic_substrings(char *string){
 int main(){
     char string[100];
     printf("Enter the string : ");
-    fgets(string, sizeof(string), stdin);
+    scanf("%s",string);
     int len = strlen(string);
     
     if(len == 1){
